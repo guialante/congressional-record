@@ -43,7 +43,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["congressionalrecord"]
+packages = ["congressionalrecord", "congressionalrecord.govinfo", "congressionalrecord.pg_run"]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
